@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class Exam01 {
 
 	public static void main(String[] args) {
+		// ë­ì˜€ì§€
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Á¤¼ö ÀÔ·Â : ");
+		System.out.print("ì •ìˆ˜ ìž…ë ¥ : ");
 		int num = sc.nextInt();
-		System.out.print("¾à¼ö : ");
+		System.out.print("ì•½ìˆ˜ : ");
 		int sum = 0;
 		for (int a = 1; num >= a; a++) {
 			if (num == a) {
@@ -17,9 +18,9 @@ public class Exam01 {
 				sum++;
 			}
 		}
-		System.out.println("¾à¼öÀÇ °³¼ö : " + sum);
+		System.out.println("ì•½ìˆ˜ì˜ ê°œìˆ˜ : " + sum);
 //		
-//		System.out.print("°á°ú : ");
+//		System.out.print("ê²°ê³¼ : ");
 //		for (int b = 1; num >= b; b++) {
 //			if (num % b == 0 && num == b) {
 //				System.out.print(b);
